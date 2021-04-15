@@ -5,7 +5,7 @@ import 'package:news_app/constants/strings.dart';
 import 'package:news_app/models/newsinfo.dart';
 
 class API_Manager {
-  Future<Article> getNews() async {
+  Future<Welcome> getNews() async {
     var client = http.Client();
     var articleModel = null;
 
@@ -15,7 +15,7 @@ class API_Manager {
         var jsonString = response.body;
         var jsonMap = jsonDecode(jsonString);
 
-        articleModel = Article.fromJson(jsonMap);
+        articleModel = Welcome.fromJson(jsonMap);
       }
     } catch (Exception) {
       return articleModel;
