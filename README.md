@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-Parsed api form newsapi.org,
+Parsed JSON response form REST API(newsapi.org),
 used http ^0.13.1 package
 
 ![newsapk](https://user-images.githubusercontent.com/16855188/115052765-2553d700-9f00-11eb-8db2-1496dd5bbf4d.JPG)
